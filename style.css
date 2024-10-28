@@ -1,0 +1,113 @@
+html {
+  color: rgb(71, 162, 241);
+}
+
+h1 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 10px;
+  font-size: 50px;
+}
+
+body {
+  text-align: center;
+  color: rgb(54, 37, 14);
+  background-color: antiquewhite;
+  border-radius: 10%;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 4%;
+  margin-right: 4%;
+  /* background-image: url("images/a_flashback.jpeg"); */
+}
+
+a {
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 3em;
+}
+
+a:hover {
+  color: purple;
+}
+
+.box-shadow-main {
+  box-shadow: 0px 2px 4px #9d927d;
+}
+
+.margined {
+  margin: 4%
+}
+
+.header {
+  padding: 3%;
+  margin: 1%
+}
+
+.div-header {
+  background-color: aliceblue;
+  width: auto;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.profile-pic {
+  width: 30%;
+  border-radius: 25%;
+  box-shadow: 1px 1px 5px rgba(157, 103, 32, 0.834);
+  margin: 1%;
+}
+
+
+.description {
+  background-color: #EBD9B4;
+  margin: 4%;
+  box-shadow: 0px 1px 2px #E8C872;
+  border-radius: 1% ;
+  padding: 5%;
+  text-align: left;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 4%;
+  list-style-type: none;
+  /* box-shadow: 0px 2px 4px #d9c48c; */
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.manager {
+  width: 15%;
+}
+
+/* ------------------------------ Mobile ------------------- */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  a {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  a {
+    font-size: 1em;
+  }
+}
